@@ -1,0 +1,14 @@
+.HomeBack {
+  min-height: 100vh;
+}
+.mygrid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 30px;
+}
+@media only screen and (max-width: 992px) {
+  .mygrid {
+    grid-template-columns: repeat(1, auto) !important;
+    justify-items: center;
+  }
+}

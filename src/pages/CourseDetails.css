@@ -1,0 +1,46 @@
+.coursedetails {
+  width: 95%;
+  margin: auto;
+  height: calc(100vh - 90px);
+}
+
+.videopromo {
+  width: 100%;
+  height: 100%;
+}
+.description {
+  width: 100%;
+}
+.photobuy {
+  width: 100%;
+  object-fit: contain;
+}
+span {
+  font-size: 24px;
+}
+.buydetails  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buydetails span{
+  background-color: white;
+  color: black;
+}
+.buydetails1{
+  background-color: white !important;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+}
+.buycourse{
+  width: 100% !important;
+  margin-top: 10px;
+}
+.pricedetails {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
